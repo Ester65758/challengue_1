@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <style>
+
+    h1{
+      color: #00FFFF;
+      font-size: 2.5em;
+      text-transform: uppercase;
+      font: 'courier';
+      position: absolute;
+      left: 72%;
+      top: 10%;
+    }
+
+  </style>
+
+  <style>
+
+    h3{
+      color: #3498db;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      font: 'courier';
+      position: absolute;
+      left: 72%;
+      top: 92%;
+    }
+
+     h4{
+      color: #8000FF;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      font: 'courier';
+      position: absolute;
+      left: 72%;
+      top: 30%;
+    }
+
+  </style>
+
+<body>
+  <h1 class="Título">Encriptador de Texto</h1>
+
+  <h4 class="Texto">Bienvenidos al fantastico mundo de las criptografias, en este programa podras cifrar cualquier mensaje que desees., asi que!!! manos a la obra</h4>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto">Solo letras minúsculas, sin acento</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <input class="btn" type="submit" value="encriptar!" id="btn-encriptar">
+        <input class="btn" type="submit" value="desencriptar!" id="btn-desencriptar">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h2 id="">Mensaje encriptado:</h2>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn" type="submit" value="copiar" id="btn-copy">
+    </section>
+  </main>
+  <div class="footer">
+    <i class="fas fa-save fa-spin fa-3x"></i>
+      <h3> Juan Esteban Rodriguez <a href="" target="_blank" title="github">Mi GitHub</a></h3> 
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
